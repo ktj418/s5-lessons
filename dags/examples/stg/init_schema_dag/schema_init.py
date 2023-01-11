@@ -2,7 +2,8 @@ import os
 from logging import Logger
 from pathlib import Path
 
-from lib import PgConnect
+#from lib import PgConnect
+from pg_connect import PgConnect
 
 
 class SchemaDdl:

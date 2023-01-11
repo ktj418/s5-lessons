@@ -3,7 +3,8 @@ import logging
 import pendulum
 from airflow.decorators import dag, task
 from airflow.models.variable import Variable
-from examples.stg.init_schema_dag.schema_init import SchemaDdl
+from schema_init import SchemaDdl
+#from examples.stg.init_schema_dag.schema_init import SchemaDdl
 from lib import ConnectionBuilder
 
 log = logging.getLogger(__name__)
